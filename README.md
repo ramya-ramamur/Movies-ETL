@@ -69,6 +69,8 @@ The main goal is to create a refactorable and intuitive ETL Pipeline that helps 
       * The movies_df DataFrame is filtered to keep specific columns.
       * The movies_df DataFrame columns are renamed
 
+![data-08-first-five-rows-of-the-movies-df-DataFrame](https://user-images.githubusercontent.com/75961057/146688905-87d1125b-d5aa-4b96-ad30-4f1dc195c44a.png)
+
 2. The extraction and transformation of the MovieLens ratings data (ratings.csv) using the ETL function does the following:
   - The ratings counts are cleaned.
   - The movies_df DataFrame is merged with the cleaned ratings DataFrame to create the movies_with_ratings_df DataFrame. 
@@ -76,4 +78,12 @@ The main goal is to create a refactorable and intuitive ETL Pipeline that helps 
   
   ![data-08-first-five-rows-of-movies-with-ratings-df-DataFrame](https://user-images.githubusercontent.com/75961057/146688846-41158d9d-4584-4092-bf72-a4d109d01ebc.png)
   
-  ![data-08-first-five-rows-of-the-movies-df-DataFrame](https://user-images.githubusercontent.com/75961057/146688905-87d1125b-d5aa-4b96-ad30-4f1dc195c44a.png)
+## Load
+**ETL_create_database.ipynb: Create the Movie Database**
+* The data from the movies_df DataFrame replaces the current data in the movies table in the SQL database, as determined by the movies_query.png. 
+* The data from the MovieLens rating CSV file is added to the ratings table in the SQL database, as determined by the ratings_query.png. 
+* The elapsed time to add the data to the database is displayed in the ETL_create_database.ipynb file.
+
+<img width="561" alt="movies_query" src="https://user-images.githubusercontent.com/75961057/146689154-3f74f548-3899-4210-bb5e-2504234d8cb7.png">
+
+<img width="406" alt="ratings_query" src="https://user-images.githubusercontent.com/75961057/146689162-991e3023-49da-44ac-9711-aae99eaf9950.png">
