@@ -23,10 +23,8 @@ The main goal is to create a refactorable and intuitive ETL Pipeline that helps 
    **wikipedia-movies.json** is in the Resources folder
    * Kaggle: - 2 files (format: .csv): [Movie Database download link.](https://www.kaggle.com/rounakbanik/the-movies-dataset/download) 
    MovieLens is a website run by the GroupLens research group at the University of Minnesota. The Kaggle dataset pulls from the MovieLens dataset of over 20 million reviews and contains a metadata file with details about the movies from The Movie Database (TMDb). Files we will be using are:
-      - movies_metadata.csv 
-      - ratings.csv
-
-(note: due to size of the raw data files, they are not included within this repo. A sample with 1000 entries is included in the Resources folder. For the entire dataset, click on the "The Movie Database" and "MovieLens" link above).
+      - movies_metadata.csv (in Resource folder)
+      - ratings.csv (note: due to size of the raw data files, they are not included within this repo. A sample with 1000 entries is included in the Resources folder. For the entire dataset, click on the "The Movie Database" link above).
 
 # Results
 
