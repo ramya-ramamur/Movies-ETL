@@ -1,7 +1,7 @@
 # Movies-ETL.
 
 # Overview
-The purpose is to create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. To do this, Movie data from 1990 to 2018 is analyzed from Wikiperdia json file, extracted large data set from Kaggle, then transforming the data into a usable dataset for a "hacking competition." Once the data was transformed and narrowed in scope for the hack-a-thon, the DataFrames were loaded into PostgresSQL. 
+The purpose is to create an automated pipeline that takes in new data, performs the appropriate transformations, and loads the data into existing tables. To do this, Movie data from 1990 to 2018 is analyzed from Wikipedia json file, extracted large data set from Kaggle, then transforming the data into a usable dataset for a "hacking competition." Once the data was transformed and narrowed in scope for the hack-a-thon, the DataFrames were loaded into PostgresSQL. 
 
 ### Process: ETL (Extract, Transform, Load)
 The main goal is to create a refactorable and intuitive ETL Pipeline that helps automate processing large sets of data.
